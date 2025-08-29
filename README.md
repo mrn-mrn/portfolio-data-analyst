@@ -9,7 +9,7 @@
 
 🐍 Outils Python : pandas, matplotlib, missingno, seaborn.  
 
-🛠 Environnement : notebook Jupyter.
+🛠 Environnement : Jupyter notebook.
 
 📑 Rapport d’analyse : format LaTeX.
 
