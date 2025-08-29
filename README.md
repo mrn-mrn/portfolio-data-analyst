@@ -1,6 +1,6 @@
 # Portfolio data analyst
 
-## Manipulation et pré-traitement de données
+## Projet 1 - Manipulation et pré-traitement de données
 
 🔗 Base de données sur les soutenances de thèses en France :  
 - analyse et traitement des variables  
@@ -14,7 +14,7 @@
 📑 Rapport d’analyse : format LaTeX.
 
 
-## Rédaction d'un rapport d'analyse
+## Projet 2 - Rédaction d'un rapport d'analyse
 
 🔗 Base de données sur la perception du changement climatique en France :
 - nettoyage des données (élimination des valeurs aberrantes et incohérences)
