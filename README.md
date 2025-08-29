@@ -5,12 +5,12 @@
 → **Base de données complexe** sur les soutenances de thèses en France :  
 - analyse et traitement des variables
 - traitement des données manquantes :
-  * matrice de nullité
-  * heatmap des données manquantes
-  * dendrogramme des données manquantes
-- détection d’outliers et valeurs aberrantes :
-  * `facetGrid` par années
-  * base intermédiaire
+  * matrice de nullité (`missingno.matrix`)
+  * heatmap des données manquantes (`missingno.heatmap`)
+  * dendrogramme des données manquantes (`missingno.dendrogram`)
+- détection des outliers et valeurs aberrantes :
+  * visualisation détaillée (`facetGrid`)
+  * création d'une base intermédiaire
   * tables simples
   * filtres
 - visualisations de données :
