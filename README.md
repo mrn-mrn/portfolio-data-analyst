@@ -24,14 +24,16 @@
 ## Projet 2 - Rédaction d'un rapport d'analyse
 
 → **Base de données** sur la perception du changement climatique en France :
-- analyse et traitement des variables (variables dérivées, dataset intermédiaire)
+- analyse et traitement des variables
+  * variables dérivées
+  * dataset intermédiaire
 - traitement des données manquantes (matrice de nullité)
 - analyses statistiques descriptives avec tables et visualisations (barplots, heatmaps)
 - visualisation détaillées (lineplot, ridgeplot, barplot avec décalage)
 
 → **Rapport d'analyse** au format IMRAD avec interprétations détaillées.
 
-→ **Outils** : Python (pandas, numpy, matplotlib, seaborn), Jupyter Notebook, GitHub (versioning).
+→ **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `missingno`), `Jupyter Notebook`, `GitHub` (versioning).
 
 
 ## Projet 3 - Machine Learning non supervisé
