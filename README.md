@@ -4,13 +4,21 @@
 
 → **Base de données complexe** sur les soutenances de thèses en France :  
 - analyse et traitement des variables
-- traitement des données manquantes (matrice de nullité, heatmap, dendrogramme)
-- détection d’outliers et valeurs aberrantes 
-- visualisations de données (barplots, lineplots)
+- traitement des données manquantes :
+  * matrice de nullité
+  * heatmap des données manquantes
+  * dendrogramme des données manquantes
+- détection d’outliers et valeurs aberrantes :
+  * `facetGrid` par années
+  * base intermédiaire
+  * tables simples
+  * filtres
+- visualisations de données :
+  * `lineplots`, `barplots`
+    
+→ **Rapport d’analyse** avec statistiques simples au format LaTeX.
 
-→ **Rapport d’analyse** au format LaTeX.
-
-→ **Outils** : Python (pandas, numpy, matplotlib, missingno, seaborn), Jupyter notebook.
+→ **Outils** : `Python` (`pandas`, `matplotlib`, `missingno`, `seaborn`), Jupyter notebook.
 
 
 ## Projet 2 - Rédaction d'un rapport d'analyse
