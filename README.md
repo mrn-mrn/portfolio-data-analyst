@@ -66,3 +66,66 @@
 - visualisations détaillées (graphiques de clustering, dendrogrammes 2D/3D, comparaison des partitions)
 
 🛠 Outils : Python (pandas, scikit-learn, matplotlib, seaborn, scipy), Jupyter Notebook, GitHub (versioning).
+
+
+## Projet 4 - Machine Learning supervisé
+
+### a. Classification supervisée avec arbres de décision
+
+🔗 Base de données sur la classification des espèces de manchots :
+- apprentissage supervisé par arbres de décision (DecisionTreeClassifier)
+- variation de la profondeur de l’arbre pour observer la complexité du modèle
+- visualisation de la frontière de décision sur plan 2D (avec DecisionBoundaryDisplay)
+- interprétation de la structure d’un arbre (plot_tree) : splits, feuilles, label majoritaire
+- prédictions probabilistes sur de nouveaux points (predict_proba)
+- analyse qualitative de l’impact des splits sur les classes
+  
+🛠 Outils : Python (scikit-learn, matplotlib, seaborn), Jupyter Notebook, GitHub (versioning).
+
+### b. Classification binaire avec arbres de décision
+
+🔗 Base de données sur les cas de cancer du sein :
+- séparation aléatoire des données en ensembles d’entraînement et de test (train_test_split)
+- entraînement d’arbres de décision avec réglage de la profondeur maximale (max_depth) et fixation d’un état aléatoire (random_state) pour la reproductibilité
+- utilisation de différents critères d’impureté (gini, entropy) pour construire les arbres
+- évaluation du modèle à l’aide de métriques classiques :
+  * accuracy
+  * matrice de confusion
+  * précision
+  * rappel
+  * F1-score
+  * courbes ROC et Precision-Recall
+  * calcul des AUC correspondants
+- visualisation des arbres de décision et des courbes de performance pour analyser les résultats
+- interprétation des compromis entre métriques pour optimiser la classification binaire
+  
+🛠 Outils : Python (scikit-learn, matplotlib, seaborn), Jupyter Notebook, GitHub (versioning).
+
+### c. Techniques avancées de régression avec arbres et forêts aléatoires
+
+🔗 Base de données sur les véhicules et leur consommation d’essence :
+- entraînement d’arbres de régression (DecisionTreeRegressor) avec réglage de la profondeur maximale et du nombre minimal d’échantillons par feuille
+- séparation des données en ensembles d’entraînement et de test (80/20)
+- calcul et interprétation des erreurs pour évaluer la qualité des prédictions :
+  * MAE
+  * MSE
+  * RMSE 
+- analyse de la performance sur les jeux d’entraînement et de test afin de détecter le sous-apprentissage ou surapprentissage
+- construction et visualisation des courbes d’apprentissage pour étudier l’impact de la taille des données d’entraînement sur la performance
+- introduction à la validation croisée (k-fold) pour obtenir une estimation robuste de l’erreur de généralisation
+- comparaison entre arbres simples et forêts aléatoires (RandomForestRegressor), en comprenant le principe du bagging et la sélection aléatoire des variables à chaque split
+
+🛠 Outils : Python (scikit-learn, matplotlib, seaborn), Jupyter Notebook, GitHub (versioning)
+
+### d. Bagging, forêts aléatoires, validation croisée et tuning d’hyperparamètres
+
+🔗 Base de données sur des diagnostics médicaux pour la détection de maladies du foie chez des patients.
+- préparation des données (séparation train/test avec un ratio 70/30)
+- mise en œuvre du bagging (BaggingClassifier) appliqué à des arbres de décision
+- entraînement et évaluation de modèles avec des métriques classiques (accuracy, recall, AUC)
+- comparaison entre bagging et forêts aléatoires (RandomForestClassifier) sur les mêmes données
+- estimation et visualisation de l’importance des variables explicatives (feature importance) via des barplots
+- optimisation des hyperparamètres par GridSearchCV pour améliorer les performances (tuning de max_depth, min_samples_leaf, etc.)
+- analyse des résultats de la grille de recherche et sélection du meilleur modèle.
+
+🛠 Outils : Python (sklearn ensemble, pandas, matplotlib, seaborn), Jupyter Notebook.
