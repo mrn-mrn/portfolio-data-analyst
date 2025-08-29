@@ -103,7 +103,7 @@
 
 ### c. Techniques avancées de régression avec arbres et forêts aléatoires
 
-→�Base de données sur les véhicules et leur consommation d’essence :
+→ Base de données sur les véhicules et leur consommation d’essence :
 - entraînement d’arbres de régression (DecisionTreeRegressor) avec réglage de la profondeur maximale et du nombre minimal d’échantillons par feuille
 - séparation des données en ensembles d’entraînement et de test (80/20)
 - calcul et interprétation des erreurs pour évaluer la qualité des prédictions :
