@@ -25,4 +25,4 @@
 
 🛠 Environnement : Jupyter Notebook, GitHub (versioning).
 
-📑 Rapport d'analyse : format IMRAD, visualisations et interprétations détaillées.
+📑 Rapport d'analyse : format IMRAD (Introduction, Méthodes, Résultats, Discussion), visualisations et interprétations détaillées.
