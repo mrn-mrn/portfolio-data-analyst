@@ -16,9 +16,9 @@
 - visualisations de données :
   * `lineplots`, `barplots`
     
-→ **Rapport d’analyse** avec statistiques simples au format LaTeX.
+→ **Rapport d’analyse** avec statistiques simples au format `LaTeX`.
 
-→ **Outils** : `Python` (`pandas`, `matplotlib`, `missingno`, `seaborn`), Jupyter notebook.
+→ **Outils** : `Python` (`pandas`, `matplotlib`, `missingno`, `seaborn`), `Jupyter notebook`.
 
 
 ## Projet 2 - Rédaction d'un rapport d'analyse
