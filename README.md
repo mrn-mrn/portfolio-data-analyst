@@ -6,80 +6,123 @@
 - analyse et traitement des variables
 - traitement des données manquantes :
   * matrice de nullité (`missingno.matrix`)
-  * heatmap des données manquantes (`missingno.heatmap`)
+  * carte thermique des données manquantes (`missingno.heatmap`)
   * dendrogramme des données manquantes (`missingno.dendrogram`)
 - détection des outliers et valeurs aberrantes :
-  * visualisation détaillée (`facetGrid`)
-  * création d'une base intermédiaire
-  * application de filtres logiques
-- visualisations de données :
-  * `lineplots`, `barplots`
+  * visualisation détaillée (`FacetGrid`)
+  * table intermédiaire avec filtres logiques
+- visualisations de données (`lineplot`,`barplot`)
     
-→ **Rapport d’analyse** avec statistiques simples au format $LaTeX$.
+→ **Rapport d’analyse** avec statistiques descriptives, en $LaTeX$.
 
-→ **Outils** : Bibliothèques `Python` (`pandas`, `matplotlib`, `missingno`, `seaborn`), `Jupyter notebook`.
+→ **Outils** : `Python` (`pandas`, `matplotlib`, `missingno`, `seaborn`), `Jupyter notebook`.
+
+→ **Résultat** : 
 
 
 ## Projet 2 - Rédaction d'un rapport d'analyse
 
 → **Base de données** sur la perception du changement climatique en France :
-- analyse et traitement des variables
-  * variables dérivées (dictionnaire, boucle)
-  * base intermédiaire par fusion de sous-ensembles (`groupby`, `merge`)
+- analyse et traitement des variables :
+  * variables dérivées
+  * fusion de sous-ensembles (`groupby`, `merge`)
   * calculs statistiques de base
-  * export au format csv
+  * export de la table intermédiaire au format `.csv`
 - traitement des données manquantes
 - calculs statistiques de base
-- visualisation détaillées :
-  * lineplot
-  * ridgeplot
-  * barplot avec décalage
+- visualisation détaillées (`lineplot`, `ridgeplot`, `barplot`)
 
-→ **Rapport d'analyse** au format IMRAD avec interprétations détaillées.
+→ **Rapport d'analyse** suivant la structure IMRaD avec interprétations détaillées.
 
-→ **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `missingno`), `Jupyter Notebook`, `GitHub` (versioning).
+→ **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `missingno`), `Jupyter Notebook`, `GitHub` (gestion des versions).
+
+→ **Résultat** : 
 
 
 ## Projet 3 - Machine Learning non supervisé
 
-### a. Analyse en composantes principales
+### a. Analyse en composantes principales (ACP)
 
 → **Base de données** simple sur les données d'Iris :
-- analyse et traitement des variables (centrage et réduction, sélection des variables pertinentes pour l’ACP)
-- analyses statistiques descriptives avec tables et visualisations (corrélogrammes, scree plots, eigenvalues, factor loadings)
-- visualisations détaillées (3D scatterplots, cercles des corrélations, biplots, représentation des contributions et qualités de représentation des individus et variables)
+- analyse et traitement des variables :
+   * centrage et réduction
+   * sélection des variables pertinentes pour l’ACP
+- analyses statistiques descriptives avec tables et visualisations
+   * corrélogrammes
+   * `scree plot`
+   * `eigenvalues`
+   * `factor loadings`
+- visualisations détaillées
+   * `3D scatterplots`
+   * cercles des corrélations
+   * `biplots`
+   * représentation des contributions
+   * qualités de représentation des individus et variables.
 
-→ **Outils** : Python (pandas, numpy, matplotlib, seaborn, scikit-learn), Jupyter Notebook, GitHub (versioning).
+→ **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`), `Jupyter Notebook`, `GitHub` (gestion des versions).
+
+→ **Résultat** : 
+
 
 ### b. Réduction de dimensionnalité et clustering
 
 → **Base de données** sur les performances sportives :
-- analyse et traitement des variables (standardisation, choix des variables pour ACP)
-- traitement des données manquantes (vérification et exclusion des lignes incomplètes si nécessaire)
-- analyses statistiques descriptives avec tables et visualisations (cercle des corrélations, scree plot, eigenvalues, factor loadings)
-- visualisations détaillées (plan factoriel avec qualité de représentation, visualisation 3D des composantes principales, clusters sur le plan factoriel)
+- analyse et traitement des variables :
+   * standardisation
+   * choix des variables pour ACP
+- traitement des données manquantes
+- analyses statistiques descriptives avec tables et visualisations :
+   * cercle des corrélations
+   * `scree plot`
+   * eigenvalues
+   * factor loadings
+- visualisations détaillées :
+   * plan factoriel avec qualité de représentation
+   * visualisation 3D des composantes principales
+   * clusters sur le plan factoriel
 
-→ **Outils** : Python (pandas, numpy, matplotlib, seaborn, scikit-learn, scipy), Jupyter Notebook, GitHub (versioning).
+→ **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `scipy`), `Jupyter Notebook`, `GitHub` (gestion des versions).
 
-### c. Analyse des correspondances multiples
+→ **Résultat** : 
 
-→ **Base de données** sur des profils fictifs d’utilisateurs d’app de rencontre :
-- analyse et traitement des variables (conversion des variables qualitatives en données pour ACM)
-- traitement des données manquantes (éventuelles valeurs "non renseignées" traitées comme modalités spécifiques ou supprimées)
-- analyses statistiques descriptives avec tables (inertie, contributions, cos² des variables)
-- visualisations détaillées (plan factoriel des variables, représentation des profils-types émergents, analyse des contributions par axe)
 
-→ **Outils** : Python (pandas, matplotlib, prince, seaborn), Jupyter Notebook, GitHub (versioning).
+### c. Analyse des correspondances multiples (ACM)
+
+→ **Base de données** sur des profils fictifs d’utilisateurs d’application de rencontre :
+- analyse et traitement des variables :
+   * conversion des variables qualitatives en données pour ACM
+- traitement des données manquantes
+- analyses statistiques descriptives avec tables :
+   * inertie
+   * contributions
+   * cos² des variables
+- visualisations détaillées :
+   * plan factoriel des variables
+   * représentation des profils-types émergents
+   * analyse des contributions par axe
+
+→ **Outils** : `Python` (`pandas`, `matplotlib`, `prince`, `seaborn`), `Jupyter Notebook`, `GitHub` (gestion des versions).
+
+→ **Résultat** : 
+
 
 ### d. Classification non supervisée avec DBSCAN
 
 → **Base de données** simulées de formes non convexes et lunes opposées :
-- génération du jeu de données via make_moons() (ou données fournies par l’enseignant pour R)
-- traitement préparatoire (normalisation si nécessaire, réduction dimensionnelle éventuelle)
-- analyses comparatives des méthodes de clustering (k-means, CAH, DBSCAN)
-- visualisations détaillées (graphiques de clustering, dendrogrammes 2D/3D, comparaison des partitions)
+- génération du jeu de données (`make_moons()`)
+- traitement préparatoire
+- analyses comparatives des méthodes de clustering :
+   * k-means
+   * CAH
+   * DBSCAN
+- visualisations détaillées :
+   * graphiques de clustering
+   * dendrogrammes 2D/3D
+   * comparaison des partitions
 
-→ **Outils** : Python (pandas, scikit-learn, matplotlib, seaborn, scipy), Jupyter Notebook, GitHub (versioning).
+→ **Outils** : `Python` (`pandas`, `scikit-learn`, `matplotlib`, `seaborn`, `scipy`), `Jupyter Notebook`, `GitHub` (gestion des versions).
+
+→ **Résultat** : 
 
 
 ## Projet 4 - Machine Learning supervisé
@@ -87,21 +130,31 @@
 ### a. Classification supervisée avec arbres de décision
 
 → **Base de données** sur la classification des espèces de manchots :
-- apprentissage supervisé par arbres de décision (DecisionTreeClassifier)
+- apprentissage supervisé par arbres de décision (`DecisionTreeClassifier`)
 - variation de la profondeur de l’arbre pour observer la complexité du modèle
-- visualisation de la frontière de décision sur plan 2D (avec DecisionBoundaryDisplay)
-- interprétation de la structure d’un arbre (plot_tree) : splits, feuilles, label majoritaire
-- prédictions probabilistes sur de nouveaux points (predict_proba)
+- visualisation de la frontière de décision sur plan 2D (`DecisionBoundaryDisplay`)
+- interprétation de la structure d’un arbre (`plot_tree`) :
+   * splits
+   * feuilles
+   * label majoritaire
+- prédictions probabilistes sur de nouveaux points (`predict_proba`)
 - analyse qualitative de l’impact des splits sur les classes
   
-→ **Outils** : Python (scikit-learn, matplotlib, seaborn), Jupyter Notebook, GitHub (versioning).
+→ **Outils** : `Python` (`scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub` (gestion des versions).
+
+→ **Résultat** : 
+
 
 ### b. Classification binaire avec arbres de décision
 
 → **Base de données** sur les cas de cancer du sein :
-- séparation aléatoire des données en ensembles d’entraînement et de test (train_test_split)
-- entraînement d’arbres de décision avec réglage de la profondeur maximale (max_depth) et fixation d’un état aléatoire (random_state) pour la reproductibilité
-- utilisation de différents critères d’impureté (gini, entropy) pour construire les arbres
+- séparation aléatoire des données en ensembles d’entraînement et de test (`train_test_split`)
+- entraînement d’arbres de décision :
+    * réglage de la profondeur maximale (`max_depth`)
+    * fixation d’un état aléatoire (`random_state`) pour la reproductibilité
+- utilisation de différents critères d’impureté pour construire les arbres :
+  * indice de gini
+  * entropy
 - évaluation du modèle à l’aide de métriques classiques :
   * accuracy
   * matrice de confusion
@@ -113,36 +166,58 @@
 - visualisation des arbres de décision et des courbes de performance pour analyser les résultats
 - interprétation des compromis entre métriques pour optimiser la classification binaire
   
-→ **Outils** : Python (scikit-learn, matplotlib, seaborn), Jupyter Notebook, GitHub (versioning).
+→ **Outils** : `Python` (`scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub` (gestion des versions).
+
+→ **Résultat** : 
+
 
 ### c. Techniques avancées de régression avec arbres et forêts aléatoires
 
 → **Base de données** sur les véhicules et leur consommation d’essence :
-- entraînement d’arbres de régression (DecisionTreeRegressor) avec réglage de la profondeur maximale et du nombre minimal d’échantillons par feuille
+- entraînement d’arbres de régression (`DecisionTreeRegressor`) :
+   * réglage de la profondeur maximale
+   * réglage du nombre minimal d’échantillons par feuille
 - séparation des données en ensembles d’entraînement et de test (80/20)
 - calcul et interprétation des erreurs pour évaluer la qualité des prédictions :
   * MAE
   * MSE
   * RMSE 
-- analyse de la performance sur les jeux d’entraînement et de test afin de détecter le sous-apprentissage ou surapprentissage
-- construction et visualisation des courbes d’apprentissage pour étudier l’impact de la taille des données d’entraînement sur la performance
-- introduction à la validation croisée (k-fold) pour obtenir une estimation robuste de l’erreur de généralisation
-- comparaison entre arbres simples et forêts aléatoires (RandomForestRegressor), en comprenant le principe du bagging et la sélection aléatoire des variables à chaque split
+- analyse de la performance sur les jeux d’entraînement et de test :
+   * détection du sous-apprentissage 
+   * détection du surapprentissage
+- analyse de l’impact de la taille des données d’entraînement sur la performance
+   * courbes d’apprentissage
+- estimation robuste de l’erreur de généralisation :
+   * validation croisée (`k-fold`)
+- comparaison entre arbres simples et forêts aléatoires (`RandomForestRegressor`)
 
-→ **Outils** : Python (scikit-learn, matplotlib, seaborn), Jupyter Notebook, GitHub (versioning)
+→ **Outils** : `Python` (`scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub` (gestion des versions)
+
+→ **Résultat** : 
+
 
 ### d. Bagging, forêts aléatoires, validation croisée et tuning d’hyperparamètres
 
-→ **Base de données** sur des diagnostics médicaux pour la détection de maladies du foie chez des patients.
-- préparation des données (séparation train/test avec un ratio 70/30)
-- mise en œuvre du bagging (BaggingClassifier) appliqué à des arbres de décision
-- entraînement et évaluation de modèles avec des métriques classiques (accuracy, recall, AUC)
-- comparaison entre bagging et forêts aléatoires (RandomForestClassifier) sur les mêmes données
-- estimation et visualisation de l’importance des variables explicatives (feature importance) via des barplots
-- optimisation des hyperparamètres par GridSearchCV pour améliorer les performances (tuning de max_depth, min_samples_leaf, etc.)
-- analyse des résultats de la grille de recherche et sélection du meilleur modèle.
+→ **Base de données** sur la détection de maladies du foie chez des patients :
+- préparation des données :
+   * séparation train/test (ratio 70/30)
+- bagging (`BaggingClassifier`) appliqué à des arbres de décision
+- entraînement du modèle
+- évaluation du modèle avec des métriques classiques :
+   * accuracy
+   * recall
+   * AUC
+- comparaison entre bagging et forêts aléatoires (`RandomForestClassifier`)
+- estimation de l'importance des variables explicatives (`barplot`)
+- optimisation des hyperparamètres (`GridSearchCV`) :
+   * tuning de `max_depth`
+   * tuning de `min_samples_leaf`
+- analyse des résultats et sélection du meilleur modèle.
 
-→ **Outils** : Python (sklearn ensemble, pandas, matplotlib, seaborn), Jupyter Notebook.
+→ **Outils** : `Python` (`sklearn`, `pandas`, `matplotlib`, `seaborn`), `Jupyter Notebook`.
+
+→ **Résultat** : 
+
 
 ## Projet 5 - Techniques avancées de visualisation de données
 
@@ -153,6 +228,9 @@
 - graphiques interactifs avancés avec sliders et selectors (Plotly)
 
 → **Outils** : Python (pandas, seaborn, matplotlib, plotly), Jupyter Notebook, GitHub (versioning).
+
+→ **Résultat** : 
+
 
 ## Projet 6 - Analyse statistique avancée
 
@@ -171,6 +249,9 @@
 
 → **Rapport d’analyse** au format IMRAD avec interprétations détaillées.
 
+→ **Résultat** : 
+
+
 ## Projet 7 - Business intelligence
 
 → **Base de données** RH :
@@ -183,3 +264,5 @@
 → **Outils** : Power BI (DAX).
 
 → **Tableau de bord** interactif.
+
+→ **Résultat** : 
