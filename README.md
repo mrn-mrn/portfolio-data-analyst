@@ -11,8 +11,7 @@
 - détection des outliers et valeurs aberrantes :
   * visualisation détaillée (`facetGrid`)
   * création d'une base intermédiaire
-  * tables simples
-  * filtres
+  * application de filtres logiques
 - visualisations de données :
   * `lineplots`, `barplots`
     
@@ -25,11 +24,16 @@
 
 → **Base de données** sur la perception du changement climatique en France :
 - analyse et traitement des variables
-  * variables dérivées
-  * dataset intermédiaire
-- traitement des données manquantes (matrice de nullité)
-- analyses statistiques descriptives avec tables et visualisations (barplots, heatmaps)
-- visualisation détaillées (lineplot, ridgeplot, barplot avec décalage)
+  * variables dérivées (dictionnaire, boucle)
+  * base intermédiaire par fusion de sous-ensembles (`groupby`, `merge`)
+  * calculs statistiques de base
+  * export au format csv
+- traitement des données manquantes
+- calculs statistiques de base
+- visualisation détaillées :
+  * lineplot
+  * ridgeplot
+  * barplot avec décalage
 
 → **Rapport d'analyse** au format IMRAD avec interprétations détaillées.
 
