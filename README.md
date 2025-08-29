@@ -156,3 +156,16 @@
 🛠 Outils : Python (pandas, numpy, scipy, statsmodels, matplotlib, seaborn), Jupyter Notebook, GitHub (versioning).
 
 📑 Rapport d’analyse au format IMRAD avec interprétations détaillées.
+
+## Projet 7 - Business intelligence
+
+🔗 Base de données RH :
+- Traitement des données
+- Sélection et traitement des variables pertinentes
+- visualisations dynamiques (barplots filtrables, graphiques diachroniques)
+- carte géographique interactive
+- Key Influencers
+
+🛠 Outils : Power BI (DAX).
+
+📑 Tableau de bord interactif.
