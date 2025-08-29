@@ -1,10 +1,15 @@
 # Portfolio data analyst
 
-## 📁 Prétraitement & visualisation de données
+## 📁 Manipulation et pré-traitement de données
 
-Nettoyage, traitement de données manquantes, détection d’outliers et visualisations avancées.
-Utilisation de pandas, seaborn, matplotlib et missingno sous Python.
-Structuration d’un notebook et d’un rapport d’analyse clair et reproductible.
+🔗 Base de données sur les soutenances de thèses en France :
+- analyse des variables
+- traitement des données manquantes (matrice de nullité, heatmap et dendrogramme des données manquantes)
+- détection de données aberrantes et d'outliers (barplots, lineplots)
+
+🐍 Bibliothèques python : pandas, matplotlib, missingno, seaborn.
+
+📑 Structuration d’un notebook Jupyter et d’un rapport d’analyse en Latex.
 
 ## Rédaction d'un rapport
 
