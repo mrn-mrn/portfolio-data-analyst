@@ -154,3 +154,5 @@
 - visualisations détaillées (scatterplots avec régressions, forest plots d’odd-ratios, diagnostics de modèles)
 
 🛠 Outils : Python (pandas, numpy, scipy, statsmodels, matplotlib, seaborn), Jupyter Notebook, GitHub (versioning).
+
+📑 Rapport d’analyse au format IMRAD avec interprétations détaillées.
