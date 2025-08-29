@@ -129,3 +129,28 @@
 - analyse des résultats de la grille de recherche et sélection du meilleur modèle.
 
 🛠 Outils : Python (sklearn ensemble, pandas, matplotlib, seaborn), Jupyter Notebook.
+
+## Projet 5 - Techniques avancées de visualisation de données
+
+🔗 Base de données sur les soutenances de thèses en France :
+- analyse et traitement des variables qualitatives et quantitatives (discipline de rattachement, années, etc.)
+- amélioration esthétique des graphiques (transparence, marges, polices, inclinaison des labels)
+- visualisations statistiques descriptives classiques (stacked area plot, stacked bar chart)
+- graphiques interactifs avancés avec sliders et selectors (Plotly)
+
+🛠 Outils : Python (pandas, seaborn, matplotlib, plotly), Jupyter Notebook, GitHub (versioning).
+
+## Projet 6 - Analyse statistique avancée
+
+🔗 Base de données sur le MOOC 'Effectuation' :
+- analyse et traitement des variables (fusion multi-sources, recodage, création de variables composites)
+- traitement des données manquantes et harmonisation des formats
+- analyses statistiques descriptives avec tables :
+  * chi2
+  * t-test
+  * ANOVA
+  * tests non-paramétriques
+- visualisations synthétiques (boxplots, mosaic plots)
+- visualisations détaillées (scatterplots avec régressions, forest plots d’odd-ratios, diagnostics de modèles)
+
+🛠 Outils : Python (pandas, numpy, scipy, statsmodels, matplotlib, seaborn), Jupyter Notebook, GitHub (versioning).
