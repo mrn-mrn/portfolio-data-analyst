@@ -161,7 +161,7 @@ _Prédiction de l’espèce d’un manchot (Adélie, Chinstrap ou Gentoo) à par
 
 ### b. Classification binaire avec arbres de décision
 
-Prédiction de cancer du sein via la méthode du hold out.
+_Prédiction de la nature bénigne ou maligne d’une tumeur du sein à partir de caractéristiques médicales, en utilisant la méthode du hold out. Cette méthode divise les données en ensembles d’entraînement et de test afin d’évaluer la performance du modèle sur des données inédites, limitant ainsi le risque de surapprentissage (overfitting)._
 
 → **Jeu de données** sur les cas de cancer du sein :
 - analyse et préparation des variables :
@@ -171,7 +171,7 @@ Prédiction de cancer du sein via la méthode du hold out.
    * division aléatoire des données en ensembles d’entraînement et de test 
 - construction et entraînement du modèle :
    * instanciation de l'arbre de décision
-   * entraînement du modèle sur les données d'entrainement
+   * entraînement du modèle sur les données d'entraînement
 - expérimentation avec différents critères d’impureté :
   * indice de gini
   * entropie
@@ -191,48 +191,51 @@ Prédiction de cancer du sein via la méthode du hold out.
 → **Outils** : `Python` (`pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub`.
 
 
-### c. Techniques avancées de régression avec arbres et forêts aléatoires
+### c. Comparaison des modèles avec arbres et forêts aléatoires
 
-_Estimation du nombre de kilomètres parcourus par litre d’essence d’un véhicule à partir de ses caractéristiques techniques, pour mieux anticiper sa consommation réelle._
+_Prédiction de la consommation d’essence d’un véhicule (km/litre) à partir de ses caractéristiques, et comparaison de la performance entre un arbre de régression et une forêt aléatoire._
 
 → **Jeu de données** sur les véhicules et leur consommation d’essence :
-- entraînement d’arbres de régression avec réglage :
-   * de la profondeur maximale
-   * du nombre minimal d’échantillons par feuille
-- séparation des données en ensembles d’entraînement et de test
-- calcul et interprétation des erreurs pour évaluer la qualité des prédictions :
-  * MAE
-  * MSE
-  * RMSE 
-- analyse de la performance sur les jeux d’entraînement et de test :
-   * détection du sous-apprentissage 
-   * détection du surapprentissage
-- analyse de l’impact de la taille des données d’entraînement sur la performance
-   * courbes d’apprentissage
-- estimation robuste de l’erreur de généralisation :
-   * validation croisée
-- comparaison entre arbres simples et forêts aléatoires
+- analyse et préparation des variables :
+   * nettoyage des données
+   * détection et traitement des valeurs aberrantes
+   * matrice des corrélations
+   * division en ensembles entraînement et test
+- construction et entraînement de modèles de régression :
+   * arbre de décision avec réglage des hyperparamètres
+   * forêt aléatoire (bagging + sélection aléatoire de variables à chaque split)
+- évaluation et comparaison des performances des modèles :
+   * calcul des erreurs MAE, MSE, RMSE
+   * analyse de l’erreur sur les jeux d'entraînement/test
+   * courbes d’apprentissage pour identifier sous- ou surapprentissage
+   * validation croisée pour estimer l’erreur de généralisation de manière plus robuste
+- sélection du meilleur modèle sur la base des métriques de performance
 
 → **Outils** : `Python` (`pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub`.
 
 
-### d. Bagging, forêts aléatoires, validation croisée et tuning d’hyperparamètres
+### d. Bagging, forêts aléatoires et tuning d’hyperparamètres
+
+_Prédiction de maladie du foie à partir de données médicales en comparant bagging et forêts aléatoires, puis optimisation du modèle par tuning des hyperparamètres._
 
 → **Jeu de données** sur la détection de maladies du foie chez des patients :
 - préparation des données :
+   * nettoyage
+   * traitement des valeurs aberrantes
+   * analyse des corrélations 
    * séparation train/test
-- bagging appliqué à des arbres de décision
-- entraînement du modèle
-- évaluation du modèle avec des métriques classiques :
-   * accuracy
-   * recall
-   * AUC
-- comparaison entre bagging et forêts aléatoires
-- estimation de l'importance des variables explicatives
+- application du bagging :
+   * instanciation et entraînement du modèle
+   * calcul des métriques classiques
+- application des forêts aléatoires :
+   * instanciation et entraînement du modèle
+   * calcul des métriques
+- comparaison entre métriques des deux modèles
+- visualisation de l'influence des variables explicatives
 - optimisation des hyperparamètres
 - analyse des résultats et sélection du meilleur modèle.
 
-→ **Outils** : `Python` (`scikit-learn`, `pandas`, `matplotlib`, `seaborn`), `Jupyter Notebook`.
+→ **Outils** : `Python` (`pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`.
 
 
 ## Projet 5 - Techniques avancées de visualisation de données
