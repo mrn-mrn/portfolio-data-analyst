@@ -111,7 +111,7 @@ _Analyse des performances des athlètes en décathlon en regroupant les épreuve
 _Identification de profils-types d’utilisateurs d’une application de rencontre à partir de leurs caractéristiques qualitatives, ainsi que des variables qui influencent le plus ces profils._
 
 → **Base de données** sur des profils fictifs d’utilisateurs d’application de rencontre :
-- analyse et traitement des variables :
+- analyse, traitement et représentation des variables :
    * nettoyage et conversion
    * mise en oeuvre de l'ACM
    * représentation des variables
@@ -125,16 +125,16 @@ _Identification de profils-types d’utilisateurs d’une application de rencont
 
 ### d. Classification non supervisée avec DBSCAN
 
-→ **Base de données** simulées de formes non convexes et lunes opposées :
+_Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour détecter des structures non convexes, en comparant ses résultats à ceux de K-means et CAH sur un jeu de données en forme de lunes._
+
+→ **Base de données** simulées :
 - génération du jeu de données (`make_moons()`)
-- traitement préparatoire
 - analyses comparatives des méthodes de clustering :
    * k-means
    * CAH
    * DBSCAN
 - visualisations détaillées :
    * graphiques de clustering
-   * dendrogrammes 2D/3D
    * comparaison des partitions
 
 → **Outils** : `Python` (`pandas`, `scikit-learn`, `matplotlib`, `seaborn`, `scipy`), `Jupyter Notebook`, `GitHub`.
