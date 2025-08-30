@@ -1,7 +1,7 @@
 # Portfolio sur l'analyse de données
 
-Bienvenue sur mon portfolio d’analyse de données.
-Vous y trouverez plusieurs projets couvrant le spectre de la data analyse, du pré-traitement au machine learning supervisé/non supervisé, en passant par la data visualisation et la business intelligence.
+Bienvenue sur mon portfolio dédié à l’analyse de données.
+Vous y trouverez plusieurs projets relatifs à l'analyse de données, du prétraitement au machine learning, en passant par la data visualisation et la business intelligence.
 Chaque projet contient les étapes clés, les outils utilisés et les résultats obtenus.
 
 [Projet 1 - Manipulation et pré-traitement de données](#projet-1---manipulation-et-pré-traitement-de-données)  
@@ -23,18 +23,18 @@ Chaque projet contient les étapes clés, les outils utilisés et les résultats
 
 ## Projet 1 - Manipulation et pré-traitement de données
 
-_Création d'un rapport structuré contenant une sélection commentée de résultats et figures, avec analyse des outliers, des patterns et premières interprétations._
+_Création d'un rapport structuré contenant une sélection commentée de résultats et graphiques, avec analyse des valeurs aberrantes, des tendances et premières interprétations._
 
 → **Base de données complexe** sur les soutenances de thèses en France :  
 - analyse et traitement des variables
 - traitement des données manquantes :
-  * matrice de nullité (`missingno.matrix`)
-  * carte thermique des données manquantes (`missingno.heatmap`)
-  * dendrogramme des données manquantes (`missingno.dendrogram`)
-- détection des valeurs aberrantes / outliers :
-  * visualisation détaillée (`FacetGrid`)
+  * matrice de nullité
+  * carte thermique des données manquantes
+  * dendrogramme des données manquantes
+- détection des valeurs aberrantes :
+  * visualisation détaillée
   * table intermédiaire avec filtres logiques
-- visualisations de données (`lineplot`,`barplot`)
+- visualisations de données
     
 → **Rapport d’analyse** avec statistiques descriptives, en $LaTeX$.
 
@@ -48,12 +48,11 @@ _Présentation selon les standards scientifiques de résultats inédits issus d�
 → **Base de données** sur la perception du changement climatique en France :
 - analyse et traitement des variables :
   * variables dérivées
-  * fusion de sous-ensembles (`groupby`, `merge`)
-  * calculs statistiques de base
+  * fusion de sous-ensembles
   * export de la table intermédiaire au format `.csv`
 - traitement des données manquantes
 - calculs statistiques de base
-- figures travaillées (`lineplot`, `ridgeplot`, `barplot`)
+- figures travaillées
 
 → **Rapport d'analyse** suivant la structure IMRaD avec interprétations détaillées, en $LaTeX$.
 
@@ -69,19 +68,19 @@ _Condensation de l’information de plusieurs variables corrélées en un petit 
 → **Base de données** simple sur les données d'Iris :
 - analyse, traitement et visualisation des variables :
    * centrage et réduction des données
-   * visualisation des données centrées-réduites (`scatterplot 3D`)
+   * visualisation des données centrées-réduites
    * mise en oeuvre de l'ACP
    * représentation graphique des données après ACP
 - analyse et visualisation des corrélations entre variables :
    * corrélogramme
    * cercle des corrélations
    * biplot des composantes principales
-   * scree plot
-   * table des valeurs propres (`eigenvalues`) et des saturations (`factor loadings`)
+   * graphe de l'éboulis (scree plot)
+   * table des valeurs propres et des saturations
 - analyse de la qualité de représentation des variables et des individus :  
   * Cos²
   * contributions
- - mise en oeuvre de l'algorithme k-means sur les composantes principales :
+ - mise en œuvre de l'algorithme k-means sur les composantes principales :
    * visualisation des clusters
    * détermination du nombre optimal de clusters (méthode du coude, des silhouettes)
 
@@ -90,7 +89,7 @@ _Condensation de l’information de plusieurs variables corrélées en un petit 
 
 ### b. Réduction de dimensionnalité et clustering
 
-_Analyse des performances des athlètes en décathlon en regroupant les épreuves selon des qualités clés (vitesse, force, etc.). Comparaison de deux méthodes de classement : k-means, qui forme un nombre de  groupes prédéfinis, et la classification ascendante hiérarchique (CAH), qui construit une hiérarchie de groupes. Cette comparaison permet de mieux comprendre et visualiser les profils des sportifs._
+_Analyse des performances des athlètes en décathlon en regroupant les épreuves selon des qualités clés (vitesse, force, etc.) et comparaison de deux méthodes de clustering : k-means (nombre de clusters prédéfini), et la classification ascendante hiérarchique (CAH), qui construit une hiérarchie de groupes. Cette comparaison permet de mieux comprendre et visualiser les profils des sportifs._
 
 → **Base de données** sur les performances sportives :
 - analyse et traitement des variables :
@@ -108,7 +107,7 @@ _Analyse des performances des athlètes en décathlon en regroupant les épreuve
 
 ### c. Analyse des correspondances multiples (ACM)
 
-_Identification de profils-types d’utilisateurs d’une application de rencontre à partir de leurs caractéristiques qualitatives, ainsi que des variables qui influencent le plus ces profils._
+_Identification de profils-types d’utilisateurs d’une application de rencontre à partir de leurs caractéristiques qualitatives, ainsi que des variables les plus contributives._
 
 → **Base de données** sur des profils fictifs d’utilisateurs d’application de rencontre :
 - analyse, traitement et représentation des variables :
@@ -128,7 +127,7 @@ _Identification de profils-types d’utilisateurs d’une application de rencont
 _Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour détecter des structures non convexes, en comparant ses résultats à ceux de k-means et CAH sur un jeu de données en forme de lunes._
 
 → **Base de données** simulées :
-- génération du jeu de données (`make_moons()`)
+- génération du jeu de données
 - analyses comparatives des méthodes de clustering :
    * k-means
    * CAH
@@ -145,14 +144,14 @@ _Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour d
 ### a. Classification supervisée avec arbres de décision
 
 → **Base de données** sur la classification des espèces de manchots :
-- apprentissage supervisé par arbres de décision (`DecisionTreeClassifier`)
+- apprentissage supervisé par arbres de décision
 - variation de la profondeur de l’arbre pour observer la complexité du modèle
-- visualisation de la frontière de décision sur plan 2D (`DecisionBoundaryDisplay`)
-- interprétation de la structure d’un arbre (`plot_tree`) :
+- visualisation de la frontière de décision sur plan 2D
+- interprétation de la structure d’un arbre :
    * splits
    * feuilles
    * label majoritaire
-- prédictions probabilistes sur de nouveaux points (`predict_proba`)
+- prédictions probabilistes sur de nouveaux points
 - analyse qualitative de l’impact des splits sur les classes
   
 → **Outils** : `Python` (`scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub`.
@@ -161,10 +160,10 @@ _Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour d
 ### b. Classification binaire avec arbres de décision
 
 → **Base de données** sur les cas de cancer du sein :
-- séparation aléatoire des données en ensembles d’entraînement et de test (`train_test_split`)
-- entraînement d’arbres de décision :
-    * réglage de la profondeur maximale (`max_depth`)
-    * fixation d’un état aléatoire (`random_state`) pour la reproductibilité
+- séparation aléatoire des données en ensembles d’entraînement et de test
+- entraînement d’arbres de décision avec érglage :
+    * de la profondeur maximale
+    * d’un état aléatoire pour la reproductibilité
 - utilisation de différents critères d’impureté pour construire les arbres :
   * indice de gini
   * entropy
@@ -185,10 +184,10 @@ _Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour d
 ### c. Techniques avancées de régression avec arbres et forêts aléatoires
 
 → **Base de données** sur les véhicules et leur consommation d’essence :
-- entraînement d’arbres de régression (`DecisionTreeRegressor`) :
-   * réglage de la profondeur maximale
-   * réglage du nombre minimal d’échantillons par feuille
-- séparation des données en ensembles d’entraînement et de test (80/20)
+- entraînement d’arbres de régression avec réglage :
+   * de la profondeur maximale
+   * du nombre minimal d’échantillons par feuille
+- séparation des données en ensembles d’entraînement et de test
 - calcul et interprétation des erreurs pour évaluer la qualité des prédictions :
   * MAE
   * MSE
@@ -199,8 +198,8 @@ _Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour d
 - analyse de l’impact de la taille des données d’entraînement sur la performance
    * courbes d’apprentissage
 - estimation robuste de l’erreur de généralisation :
-   * validation croisée (`k-fold`)
-- comparaison entre arbres simples et forêts aléatoires (`RandomForestRegressor`)
+   * validation croisée
+- comparaison entre arbres simples et forêts aléatoires
 
 → **Outils** : `Python` (`scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub`.
 
@@ -209,18 +208,16 @@ _Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour d
 
 → **Base de données** sur la détection de maladies du foie chez des patients :
 - préparation des données :
-   * séparation train/test (ratio 70/30)
-- bagging (`BaggingClassifier`) appliqué à des arbres de décision
+   * séparation train/test
+- bagging appliqué à des arbres de décision
 - entraînement du modèle
 - évaluation du modèle avec des métriques classiques :
    * accuracy
    * recall
    * AUC
-- comparaison entre bagging et forêts aléatoires (`RandomForestClassifier`)
-- estimation de l'importance des variables explicatives (`barplot`)
-- optimisation des hyperparamètres (`GridSearchCV`) :
-   * tuning de `max_depth`
-   * tuning de `min_samples_leaf`
+- comparaison entre bagging et forêts aléatoires
+- estimation de l'importance des variables explicatives
+- optimisation des hyperparamètres
 - analyse des résultats et sélection du meilleur modèle.
 
 → **Outils** : `Python` (`scikit-learn`, `pandas`, `matplotlib`, `seaborn`), `Jupyter Notebook`.
@@ -229,10 +226,10 @@ _Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour d
 ## Projet 5 - Techniques avancées de visualisation de données
 
 → **Base de données** sur les soutenances de thèses en France :
-- analyse et traitement des variables qualitatives et quantitatives (discipline de rattachement, années, etc.)
-- amélioration esthétique des graphiques (transparence, marges, polices, inclinaison des labels)
-- visualisations statistiques descriptives classiques (stacked area plot, stacked bar chart)
-- graphiques interactifs avancés avec sliders et selectors (Plotly)
+- analyse et traitement des variables qualitatives et quantitatives
+- amélioration esthétique des graphiques
+- visualisations statistiques descriptives classiques
+- graphiques interactifs avancés avec sliders et selectors
 
 → **Outils** : `Python` (`pandas`, `seaborn`, `matplotlib`, `plotly`), `Jupyter Notebook`, `GitHub`.
 
@@ -240,15 +237,17 @@ _Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour d
 ## Projet 6 - Analyse statistique avancée
 
 → **Base de données** sur le MOOC 'Effectuation' :
-- analyse et traitement des variables (fusion multi-sources, recodage, création de variables composites)
+- analyse et traitement des variables :
+   * fusion multi-sources
+   * recodage
+   * création de variables composites
 - traitement des données manquantes et harmonisation des formats
 - analyses statistiques descriptives avec tables :
   * chi2
   * t-test
   * ANOVA
   * tests non-paramétriques
-- visualisations synthétiques (boxplots, mosaic plots)
-- visualisations détaillées (scatterplots avec régressions, forest plots d’odd-ratios, diagnostics de modèles)
+- visualisations synthétiques et détaillées 
 
 → **Outils** : `Python` (`pandas`, `numpy`, `scipy`, `statsmodels`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub`.
 
@@ -258,11 +257,11 @@ _Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour d
 ## Projet 7 - Business intelligence
 
 → **Base de données** RH :
-- Traitement des données
-- Sélection et traitement des variables pertinentes
-- visualisations dynamiques (barplots filtrables, graphiques diachroniques)
+- traitement des données
+- sélection et traitement des variables pertinentes
+- visualisations dynamiques
 - carte géographique interactive
-- Key Influencers
+- key-Influencers
 
 → **Outils** : Power BI (DAX).
 
