@@ -1,5 +1,29 @@
 # Portfolio sur l'analyse de données
 
+Bienvenue sur mon portfolio d’analyse de données.
+Vous y trouverez plusieurs projets couvrant le spectre de la data analyse, du pré-traitement au machine learning supervisé/non supervisé, en passant par la data visualisation et la business intelligence.
+Chaque projet contient les étapes clés, les outils utilisés et les résultats obtenus.
+
+## Sommaire
+
+### 📑 Sommaire
+
+- [Projet 1 - Manipulation et pré-traitement de données](#projet-1---manipulation-et-pré-traitement-de-données)  
+- [Projet 2 - Rédaction d'un rapport d'analyse](#projet-2---rédaction-dun-rapport-danalyse)  
+- [Projet 3 - Machine Learning non supervisé](#projet-3---machine-learning-non-supervisé)  
+  - [a. Analyse en composantes principales (ACP)](#a-analyse-en-composantes-principales-acp)  
+  - [b. Réduction de dimensionnalité et clustering](#b-réduction-de-dimensionnalité-et-clustering)  
+  - [c. Analyse des correspondances multiples (ACM)](#c-analyse-des-correspondances-multiples-acm)  
+  - [d. Classification non supervisée avec DBSCAN](#d-classification-non-supervisée-avec-dbscan)  
+- [Projet 4 - Machine Learning supervisé](#projet-4---machine-learning-supervisé)  
+  - [a. Classification supervisée avec arbres de décision](#a-classification-supervisée-avec-arbres-de-décision)  
+  - [b. Classification binaire avec arbres de décision](#b-classification-binaire-avec-arbres-de-décision)  
+  - [c. Techniques avancées de régression avec arbres et forêts aléatoires](#c-techniques-avancées-de-régression-avec-arbres-et-forêts-aléatoires)  
+  - [d. Bagging, forêts aléatoires, validation croisée et tuning d’hyperparamètres](#d-bagging-forêts-aléatoires-validation-croisée-et-tuning-dhyperparamètres)  
+- [Projet 5 - Techniques avancées de visualisation de données](#projet-5---techniques-avancées-de-visualisation-de-données)  
+- [Projet 6 - Analyse statistique avancée](#projet-6---analyse-statistique-avancée)  
+- [Projet 7 - Business intelligence](#projet-7---business-intelligence)
+
 ## Projet 1 - Manipulation et pré-traitement de données
 
 → **Base de données complexe** sur les soutenances de thèses en France :  
@@ -8,7 +32,7 @@
   * matrice de nullité (`missingno.matrix`)
   * carte thermique des données manquantes (`missingno.heatmap`)
   * dendrogramme des données manquantes (`missingno.dendrogram`)
-- détection des outliers et valeurs aberrantes :
+- détection des valeurs aberrantes / outliers :
   * visualisation détaillée (`FacetGrid`)
   * table intermédiaire avec filtres logiques
 - visualisations de données (`lineplot`,`barplot`)
@@ -17,7 +41,7 @@
 
 → **Outils** : `Python` (`pandas`, `matplotlib`, `missingno`, `seaborn`), `Jupyter notebook`.
 
-→ **Résultat** : 
+→ **Résultat** : Rapport structuré contenant une sélection commentée de résultats et figures, avec analyse des outliers, des patterns et premières interprétations.
 
 
 ## Projet 2 - Rédaction d'un rapport d'analyse
@@ -30,13 +54,13 @@
   * export de la table intermédiaire au format `.csv`
 - traitement des données manquantes
 - calculs statistiques de base
-- visualisation détaillées (`lineplot`, `ridgeplot`, `barplot`)
+- figures travaillées (`lineplot`, `ridgeplot`, `barplot`)
 
 → **Rapport d'analyse** suivant la structure IMRaD avec interprétations détaillées.
 
-→ **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `missingno`), `Jupyter Notebook`, `GitHub` (gestion des versions).
+→ **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `missingno`), `Jupyter Notebook`, `GitHub`.
 
-→ **Résultat** : 
+→ **Résultat** : Présentation rigoureuse de résultats inédits issus d’une analyse personnelle de données, avec interprétations approfondies.
 
 
 ## Projet 3 - Machine Learning non supervisé
@@ -44,22 +68,25 @@
 ### a. Analyse en composantes principales (ACP)
 
 → **Base de données** simple sur les données d'Iris :
-- analyse et traitement des variables :
-   * centrage et réduction
-   * sélection des variables pertinentes pour l’ACP
-- analyses statistiques descriptives avec tables et visualisations
-   * corrélogrammes
-   * `scree plot`
-   * `eigenvalues`
-   * `factor loadings`
-- visualisations détaillées
-   * `3D scatterplots`
-   * cercles des corrélations
-   * `biplots`
-   * représentation des contributions
-   * qualités de représentation des individus et variables.
+- analyse, traitement et visualisation des variables :
+   * centrage et réduction des données (standardisation)
+   * visualisation des données centrées-réduites (`scatterplot 3D`)
+   * mise en oeuvre de l'ACP
+   * représentation des données après ACP
+- analyse et visualiastion des corrélations entre variables :
+   * corrélogramme (heatmap)
+   * cercle des corrélations
+   * `Biplot` des composantes principales
+   * `Scree plot` pour déterminer le nombre de composantes principales
+   * Table des valeurs propres (`eigenvalues`) et des saturations (`factor loadings`)
+ - analyse de la qualité de représentation des variables et des individus :
+   * Cos2
+   * contributions
+ - mise en oeuvre de l'algorithme k-means sur les composantes principales :
+   * visualisation des clusters
+   * détermination du nombre optimal de clusters (méthode du coude, des silhouettes)
 
-→ **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`), `Jupyter Notebook`, `GitHub` (gestion des versions).
+→ **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `scipy`, `yellowbrick`, `prince`, `psynlig`), `Jupyter Notebook`, `GitHub`.
 
 → **Résultat** : 
 
