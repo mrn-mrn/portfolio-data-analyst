@@ -43,7 +43,7 @@ _Création d'un rapport structuré contenant une sélection commentée de résul
 
 ## Projet 2 - Rédaction d'un rapport d'analyse
 
-_Présentation rigoureuse de résultats inédits issus d’une analyse personnelle de données, avec interprétations approfondies._
+_Présentation selon les standards scientifiques de résultats inédits issus d’une analyse personnelle de données, avec interprétations approfondies._
 
 → **Base de données** sur la perception du changement climatique en France :
 - analyse et traitement des variables :
@@ -55,7 +55,7 @@ _Présentation rigoureuse de résultats inédits issus d’une analyse personnel
 - calculs statistiques de base
 - figures travaillées (`lineplot`, `ridgeplot`, `barplot`)
 
-→ **Rapport d'analyse** suivant la structure IMRaD avec interprétations détaillées.
+→ **Rapport d'analyse** suivant la structure IMRaD avec interprétations détaillées, en $LaTeX$.
 
 → **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `missingno`), `Jupyter Notebook`, `GitHub`.
 
@@ -90,6 +90,8 @@ _Condensation de l’information de plusieurs variables corrélées en un petit 
 
 ### b. Réduction de dimensionnalité et clustering
 
+_Analyse des performances des athlètes en décathlon en regroupant les épreuves selon des qualités clés (vitesse, force, etc.). Comparaison ensuite deux méthodes de classement : k-means, qui forme un nombre de  groupes prédéfinis, et la classification hiérarchique ascendante, qui construit une hiérarchie de groupes. Cette comparaison permet de mieux comprendre et visualiser les profils des sportifs._
+
 → **Base de données** sur les performances sportives :
 - analyse et traitement des variables :
    * standardisation
@@ -106,8 +108,6 @@ _Condensation de l’information de plusieurs variables corrélées en un petit 
    * clusters sur le plan factoriel
 
 → **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `scipy`), `Jupyter Notebook`, `GitHub` (gestion des versions).
-
-→ **Résultat** : 
 
 
 ### c. Analyse des correspondances multiples (ACM)
@@ -165,8 +165,6 @@ _Condensation de l’information de plusieurs variables corrélées en un petit 
 - analyse qualitative de l’impact des splits sur les classes
   
 → **Outils** : `Python` (`scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub` (gestion des versions).
-
-→ **Résultat** : 
 
 
 ### b. Classification binaire avec arbres de décision
