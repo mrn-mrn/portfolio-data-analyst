@@ -66,26 +66,26 @@ Chaque projet contient les étapes clés, les outils utilisés et les résultats
 
 → **Base de données** simple sur les données d'Iris :
 - analyse, traitement et visualisation des variables :
-   * centrage et réduction des données (standardisation)
+   * centrage et réduction des données
    * visualisation des données centrées-réduites (`scatterplot 3D`)
    * mise en oeuvre de l'ACP
-   * représentation des données après ACP
-- analyse et visualiastion des corrélations entre variables :
-   * corrélogramme (heatmap)
+   * représentation graphique des données après ACP
+- analyse et visualisation des corrélations entre variables :
+   * corrélogramme
    * cercle des corrélations
-   * `Biplot` des composantes principales
-   * `Scree plot` pour déterminer le nombre de composantes principales
-   * Table des valeurs propres (`eigenvalues`) et des saturations (`factor loadings`)
- - analyse de la qualité de représentation des variables et des individus :
-   * Cos2
-   * contributions
+   * biplot des composantes principales
+   * scree plot
+   * table des valeurs propres (`eigenvalues`) et des saturations (`factor loadings`)
+- analyse de la qualité de représentation des variables et des individus :  
+  * Cos²
+  * contributions
  - mise en oeuvre de l'algorithme k-means sur les composantes principales :
    * visualisation des clusters
    * détermination du nombre optimal de clusters (méthode du coude, des silhouettes)
 
 → **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `scipy`, `yellowbrick`, `prince`, `psynlig`), `Jupyter Notebook`, `GitHub`.
 
-→ **Résultat** : 
+→ **Résultat** : la réduction de dimensionnalité condense l’information de plusieurs variables corrélées en un petit nombre de composantes principales indépendantes, ce qui facilite la réalisation du clustering. Le clustering permet alors de regrouper les iris en différentes espèces selon leurs caractéristiques.
 
 
 ### b. Réduction de dimensionnalité et clustering
