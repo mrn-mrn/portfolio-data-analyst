@@ -25,7 +25,7 @@ Chaque projet contient les étapes clés, les outils utilisés et les résultats
 
 _Création d'un rapport structuré contenant une sélection commentée de résultats et graphiques, avec analyse des valeurs aberrantes, des tendances et premières interprétations._
 
-→ **Base de données complexe** sur les soutenances de thèses en France :  
+→ **Jeu de données complexe** sur les soutenances de thèses en France :  
 - analyse et traitement des variables
 - traitement des données manquantes :
   * matrice de nullité
@@ -45,7 +45,7 @@ _Création d'un rapport structuré contenant une sélection commentée de résul
 
 _Présentation selon les standards scientifiques de résultats inédits issus d’une analyse personnelle de données, avec interprétations approfondies._
 
-→ **Base de données** sur la perception du changement climatique en France :
+→ **Jeu de données** sur la perception du changement climatique en France :
 - analyse et traitement des variables :
   * variables dérivées
   * fusion de sous-ensembles
@@ -65,7 +65,7 @@ _Présentation selon les standards scientifiques de résultats inédits issus d�
 
 _Condensation de l’information de plusieurs variables corrélées en un petit nombre de composantes principales indépendantes, ce qui facilite la réalisation du clustering. Le clustering permet alors de regrouper les iris selon leurs caractéristiques._
 
-→ **Base de données** simple sur les données d'Iris :
+→ **Jeu de données** simple sur les données d'Iris :
 - analyse, traitement et visualisation des variables :
    * centrage et réduction des données
    * visualisation des données centrées-réduites
@@ -91,7 +91,7 @@ _Condensation de l’information de plusieurs variables corrélées en un petit 
 
 _Analyse des performances des athlètes en décathlon en regroupant les épreuves selon des qualités clés (vitesse, force, etc.) et comparaison de deux méthodes de clustering : k-means (nombre de clusters prédéfini), et la classification ascendante hiérarchique (CAH), qui construit une hiérarchie de groupes. Cette comparaison permet de mieux comprendre et visualiser les profils des sportifs._
 
-→ **Base de données** sur les performances sportives :
+→ **Jeu de données** sur les performances sportives :
 - analyse et traitement des variables :
    * centrage et réduction des données
    * mise en oeuvre de l'ACP
@@ -109,7 +109,7 @@ _Analyse des performances des athlètes en décathlon en regroupant les épreuve
 
 _Identification de profils-types d’utilisateurs d’une application de rencontre à partir de leurs caractéristiques qualitatives, ainsi que des variables les plus contributives._
 
-→ **Base de données** sur des profils fictifs d’utilisateurs d’application de rencontre :
+→ **Jeu de données** sur des profils fictifs d’utilisateurs d’application de rencontre :
 - analyse, traitement et représentation des variables :
    * nettoyage et conversion
    * mise en oeuvre de l'ACM
@@ -126,7 +126,7 @@ _Identification de profils-types d’utilisateurs d’une application de rencont
 
 _Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour détecter des structures non convexes, en comparant ses résultats à ceux de k-means et CAH sur un jeu de données en forme de lunes._
 
-→ **Base de données** simulées :
+→ **Jeu de données** simulées :
 - génération du jeu de données
 - analyses comparatives des méthodes de clustering :
    * k-means
@@ -143,30 +143,38 @@ _Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour d
 
 ### a. Classification supervisée avec arbres de décision
 
-→ **Base de données** sur la classification des espèces de manchots :
-- apprentissage supervisé par arbres de décision
-- variation de la profondeur de l’arbre pour observer la complexité du modèle
-- visualisation de la frontière de décision sur plan 2D
-- interprétation de la structure d’un arbre :
-   * splits
-   * feuilles
-   * label majoritaire
-- prédictions probabilistes sur de nouveaux points
-- analyse qualitative de l’impact des splits sur les classes
+_Prédiction de l’espèce d’un manchot (Adélie, Chinstrap ou Gentoo) à partir de ses caractéristiques morphologiques._
+
+→ **Jeu de données** sur la classification des espèces de manchots :
+- préparation des données :
+   * analyse exploratoire et traitement des variables
+   * séparation des caractéristiques et de leurs étiquettes
+   * création de deux sous-ensembles d’entraînement et de test
+- construction du modèle :
+   * entraînement de l'arbre de classification
+   * visualisation de la partition des données selon l'arbre
+   * étude de l’impact de la profondeur de l’arbre sur les performances
+- prédictions probabilistes pour un nouvel échantillon
   
-→ **Outils** : `Python` (`scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub`.
+→ **Outils** : `Python` (`pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub`.
 
 
 ### b. Classification binaire avec arbres de décision
 
-→ **Base de données** sur les cas de cancer du sein :
-- séparation aléatoire des données en ensembles d’entraînement et de test
-- entraînement d’arbres de décision avec érglage :
-    * de la profondeur maximale
-    * d’un état aléatoire pour la reproductibilité
-- utilisation de différents critères d’impureté pour construire les arbres :
+Prédiction de cancer du sein via la méthode du hold out.
+
+→ **Jeu de données** sur les cas de cancer du sein :
+- analyse et préparation des variables :
+   * nettoyage des données
+   * détection et traitement des valeurs aberrantes
+   * matrice des corrélations
+   * division aléatoire des données en ensembles d’entraînement et de test 
+- construction et entraînement du modèle :
+   * instanciation de l'arbre de décision
+   * entraînement du modèle sur les données d'entrainement
+- expérimentation avec différents critères d’impureté :
   * indice de gini
-  * entropy
+  * entropie
 - évaluation du modèle à l’aide de métriques classiques :
   * accuracy
   * matrice de confusion
@@ -174,16 +182,20 @@ _Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour d
   * rappel
   * F1-score
   * courbes ROC et Precision-Recall
-  * calcul des AUC correspondants
-- visualisation des arbres de décision et des courbes de performance pour analyser les résultats
-- interprétation des compromis entre métriques pour optimiser la classification binaire
+  * calcul des AUC associés
+- visualisation et analyse des résultats :
+   * représentation graphique des arbres de décision
+   * affichage des courbes de performance
+   * interprétation des compromis entre métriques pour optimiser la classification
   
-→ **Outils** : `Python` (`scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub`.
+→ **Outils** : `Python` (`pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub`.
 
 
 ### c. Techniques avancées de régression avec arbres et forêts aléatoires
 
-→ **Base de données** sur les véhicules et leur consommation d’essence :
+_Estimation du nombre de kilomètres parcourus par litre d’essence d’un véhicule à partir de ses caractéristiques techniques, pour mieux anticiper sa consommation réelle._
+
+→ **Jeu de données** sur les véhicules et leur consommation d’essence :
 - entraînement d’arbres de régression avec réglage :
    * de la profondeur maximale
    * du nombre minimal d’échantillons par feuille
@@ -201,12 +213,12 @@ _Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour d
    * validation croisée
 - comparaison entre arbres simples et forêts aléatoires
 
-→ **Outils** : `Python` (`scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub`.
+→ **Outils** : `Python` (`pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub`.
 
 
 ### d. Bagging, forêts aléatoires, validation croisée et tuning d’hyperparamètres
 
-→ **Base de données** sur la détection de maladies du foie chez des patients :
+→ **Jeu de données** sur la détection de maladies du foie chez des patients :
 - préparation des données :
    * séparation train/test
 - bagging appliqué à des arbres de décision
@@ -225,7 +237,7 @@ _Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour d
 
 ## Projet 5 - Techniques avancées de visualisation de données
 
-→ **Base de données** sur les soutenances de thèses en France :
+→ **Jeu de données** sur les soutenances de thèses en France :
 - analyse et traitement des variables qualitatives et quantitatives
 - amélioration esthétique des graphiques
 - visualisations statistiques descriptives classiques
@@ -236,7 +248,7 @@ _Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour d
 
 ## Projet 6 - Analyse statistique avancée
 
-→ **Base de données** sur le MOOC 'Effectuation' :
+→ **Jeu de données** sur le MOOC 'Effectuation' :
 - analyse et traitement des variables :
    * fusion multi-sources
    * recodage
@@ -256,7 +268,7 @@ _Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour d
 
 ## Projet 7 - Business intelligence
 
-→ **Base de données** RH :
+→ **Jeu de données** RH :
 - traitement des données
 - sélection et traitement des variables pertinentes
 - visualisations dynamiques
