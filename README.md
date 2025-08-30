@@ -85,47 +85,42 @@ _Condensation de l’information de plusieurs variables corrélées en un petit 
    * visualisation des clusters
    * détermination du nombre optimal de clusters (méthode du coude, des silhouettes)
 
-→ **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `scipy`, `yellowbrick`, `prince`, `psynlig`), `Jupyter Notebook`, `GitHub`.
+→ **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `yellowbrick`), `Jupyter Notebook`, `GitHub`.
 
 
 ### b. Réduction de dimensionnalité et clustering
 
-_Analyse des performances des athlètes en décathlon en regroupant les épreuves selon des qualités clés (vitesse, force, etc.). Comparaison de deux méthodes de classement : k-means, qui forme un nombre de  groupes prédéfinis, et la classification hiérarchique ascendante, qui construit une hiérarchie de groupes. Cette comparaison permet de mieux comprendre et visualiser les profils des sportifs._
+_Analyse des performances des athlètes en décathlon en regroupant les épreuves selon des qualités clés (vitesse, force, etc.). Comparaison de deux méthodes de classement : k-means, qui forme un nombre de  groupes prédéfinis, et la classification ascendante hiérarchique (CAH), qui construit une hiérarchie de groupes. Cette comparaison permet de mieux comprendre et visualiser les profils des sportifs._
 
 → **Base de données** sur les performances sportives :
 - analyse et traitement des variables :
-   * standardisation
-   * choix des variables pour ACP
-- traitement des données manquantes
-- analyses statistiques descriptives avec tables et visualisations :
+   * centrage et réduction des données
+   * mise en oeuvre de l'ACP
    * cercle des corrélations
-   * `scree plot`
-   * eigenvalues
-   * factor loadings
-- visualisations détaillées :
-   * plan factoriel avec qualité de représentation
-   * visualisation 3D des composantes principales
-   * clusters sur le plan factoriel
+- représentation des individus sur le plan factoriel :
+   * qualité de représentation des individus
+   * table des contributions vectorielles
+   * mise en oeuvre de l'algorithme k-means
+   * mise en oeuvre de la méthode de CAH
 
 → **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `scipy`), `Jupyter Notebook`, `GitHub`.
 
 
 ### c. Analyse des correspondances multiples (ACM)
 
+_Identification de profils-types d’utilisateurs d’une application de rencontre à partir de leurs caractéristiques qualitatives, ainsi que des variables qui influencent le plus ces profils._
+
 → **Base de données** sur des profils fictifs d’utilisateurs d’application de rencontre :
 - analyse et traitement des variables :
-   * conversion des variables qualitatives en données pour ACM
-- traitement des données manquantes
-- analyses statistiques descriptives avec tables :
+   * nettoyage et conversion
+   * mise en oeuvre de l'ACM
+   * représentation des variables
+- analyse de la qualité de représentation des variables :
    * inertie
    * contributions
-   * cos² des variables
-- visualisations détaillées :
-   * plan factoriel des variables
-   * représentation des profils-types émergents
-   * analyse des contributions par axe
-
-→ **Outils** : `Python` (`pandas`, `matplotlib`, `prince`, `seaborn`), `Jupyter Notebook`, `GitHub`.
+   * Cos²
+ 
+→ **Outils** : `Python` (`pandas`, `numpy`,`matplotlib`, `prince`), `Jupyter Notebook`, `GitHub`.
 
 
 ### d. Classification non supervisée avec DBSCAN
@@ -228,7 +223,7 @@ _Analyse des performances des athlètes en décathlon en regroupant les épreuve
    * tuning de `min_samples_leaf`
 - analyse des résultats et sélection du meilleur modèle.
 
-→ **Outils** : `Python` (`sklearn`, `pandas`, `matplotlib`, `seaborn`), `Jupyter Notebook`.
+→ **Outils** : `Python` (`scikit-learn`, `pandas`, `matplotlib`, `seaborn`), `Jupyter Notebook`.
 
 
 ## Projet 5 - Techniques avancées de visualisation de données
