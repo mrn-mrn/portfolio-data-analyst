@@ -23,6 +23,8 @@ Chaque projet contient les étapes clés, les outils utilisés et les résultats
 
 ## Projet 1 - Manipulation et pré-traitement de données
 
+_Création d'un rapport structuré contenant une sélection commentée de résultats et figures, avec analyse des outliers, des patterns et premières interprétations._
+
 → **Base de données complexe** sur les soutenances de thèses en France :  
 - analyse et traitement des variables
 - traitement des données manquantes :
@@ -38,10 +40,10 @@ Chaque projet contient les étapes clés, les outils utilisés et les résultats
 
 → **Outils** : `Python` (`pandas`, `matplotlib`, `missingno`, `seaborn`), `Jupyter notebook`.
 
-→ **Résultat** : Rapport structuré contenant une sélection commentée de résultats et figures, avec analyse des outliers, des patterns et premières interprétations.
-
 
 ## Projet 2 - Rédaction d'un rapport d'analyse
+
+_Présentation rigoureuse de résultats inédits issus d’une analyse personnelle de données, avec interprétations approfondies._
 
 → **Base de données** sur la perception du changement climatique en France :
 - analyse et traitement des variables :
@@ -57,12 +59,12 @@ Chaque projet contient les étapes clés, les outils utilisés et les résultats
 
 → **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `missingno`), `Jupyter Notebook`, `GitHub`.
 
-→ **Résultat** : Présentation rigoureuse de résultats inédits issus d’une analyse personnelle de données, avec interprétations approfondies.
-
 
 ## Projet 3 - Machine Learning non supervisé
 
 ### a. Analyse en composantes principales (ACP)
+
+_Condensation de l’information de plusieurs variables corrélées en un petit nombre de composantes principales indépendantes, ce qui facilite la réalisation du clustering. Le clustering permet alors de regrouper les iris selon leurs caractéristiques._
 
 → **Base de données** simple sur les données d'Iris :
 - analyse, traitement et visualisation des variables :
@@ -84,8 +86,6 @@ Chaque projet contient les étapes clés, les outils utilisés et les résultats
    * détermination du nombre optimal de clusters (méthode du coude, des silhouettes)
 
 → **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `scipy`, `yellowbrick`, `prince`, `psynlig`), `Jupyter Notebook`, `GitHub`.
-
-→ **Résultat** : la réduction de dimensionnalité condense l’information de plusieurs variables corrélées en un petit nombre de composantes principales indépendantes, ce qui facilite la réalisation du clustering. Le clustering permet alors de regrouper les iris en différentes espèces selon leurs caractéristiques.
 
 
 ### b. Réduction de dimensionnalité et clustering
