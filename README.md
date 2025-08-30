@@ -4,21 +4,21 @@ Bienvenue sur mon portfolio d’analyse de données.
 Vous y trouverez plusieurs projets couvrant le spectre de la data analyse, du pré-traitement au machine learning supervisé/non supervisé, en passant par la data visualisation et la business intelligence.
 Chaque projet contient les étapes clés, les outils utilisés et les résultats obtenus.
 
-- [Projet 1 - Manipulation et pré-traitement de données](#projet-1---manipulation-et-pré-traitement-de-données)  
-- [Projet 2 - Rédaction d'un rapport d'analyse](#projet-2---rédaction-dun-rapport-danalyse)  
-- [Projet 3 - Machine Learning non supervisé](#projet-3---machine-learning-non-supervisé)  
-  - [a. Analyse en composantes principales (ACP)](#a-analyse-en-composantes-principales-acp)  
-  - [b. Réduction de dimensionnalité et clustering](#b-réduction-de-dimensionnalité-et-clustering)  
-  - [c. Analyse des correspondances multiples (ACM)](#c-analyse-des-correspondances-multiples-acm)  
-  - [d. Classification non supervisée avec DBSCAN](#d-classification-non-supervisée-avec-dbscan)  
-- [Projet 4 - Machine Learning supervisé](#projet-4---machine-learning-supervisé)  
-  - [a. Classification supervisée avec arbres de décision](#a-classification-supervisée-avec-arbres-de-décision)  
-  - [b. Classification binaire avec arbres de décision](#b-classification-binaire-avec-arbres-de-décision)  
-  - [c. Techniques avancées de régression avec arbres et forêts aléatoires](#c-techniques-avancées-de-régression-avec-arbres-et-forêts-aléatoires)  
-  - [d. Bagging, forêts aléatoires, validation croisée et tuning d’hyperparamètres](#d-bagging-forêts-aléatoires-validation-croisée-et-tuning-dhyperparamètres)  
-- [Projet 5 - Techniques avancées de visualisation de données](#projet-5---techniques-avancées-de-visualisation-de-données)  
-- [Projet 6 - Analyse statistique avancée](#projet-6---analyse-statistique-avancée)  
-- [Projet 7 - Business intelligence](#projet-7---business-intelligence)
+[Projet 1 - Manipulation et pré-traitement de données](#projet-1---manipulation-et-pré-traitement-de-données)
+[Projet 2 - Rédaction d'un rapport d'analyse](#projet-2---rédaction-dun-rapport-danalyse)
+[Projet 3 - Machine Learning non supervisé](#projet-3---machine-learning-non-supervisé)
+  [a. Analyse en composantes principales (ACP)](#a-analyse-en-composantes-principales-acp)  
+  [b. Réduction de dimensionnalité et clustering](#b-réduction-de-dimensionnalité-et-clustering)  
+  [c. Analyse des correspondances multiples (ACM)](#c-analyse-des-correspondances-multiples-acm)  
+  [d. Classification non supervisée avec DBSCAN](#d-classification-non-supervisée-avec-dbscan)
+[Projet 4 - Machine Learning supervisé](#projet-4---machine-learning-supervisé)  
+  [a. Classification supervisée avec arbres de décision](#a-classification-supervisée-avec-arbres-de-décision)  
+  [b. Classification binaire avec arbres de décision](#b-classification-binaire-avec-arbres-de-décision)  
+  [c. Techniques avancées de régression avec arbres et forêts aléatoires](#c-techniques-avancées-de-régression-avec-arbres-et-forêts-aléatoires)  
+  [d. Bagging, forêts aléatoires, validation croisée et tuning d’hyperparamètres](#d-bagging-forêts-aléatoires-validation-croisée-et-tuning-dhyperparamètres)  
+[Projet 5 - Techniques avancées de visualisation de données](#projet-5---techniques-avancées-de-visualisation-de-données)
+[Projet 6 - Analyse statistique avancée](#projet-6---analyse-statistique-avancée)
+[Projet 7 - Business intelligence](#projet-7---business-intelligence)
 
 ## Projet 1 - Manipulation et pré-traitement de données
 
