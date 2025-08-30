@@ -242,14 +242,23 @@ _Prédiction de maladie du foie à partir de données médicales en comparant ba
 
 → **Jeu de données** sur les soutenances de thèses en France :
 - analyse et traitement des variables qualitatives et quantitatives
-- amélioration esthétique des graphiques
-- visualisations statistiques descriptives classiques
-- graphiques interactifs avancés avec sliders et selectors
+- amélioration esthétique des graphiques :
+    * transparence
+    * polices
+    * marges
+    * inclinaison des labels
+    * position des légendes
+    * palettes de couleurs
+- graphiques interactifs avancés :
+    * avec sliders
+    * avec selectors
 
-→ **Outils** : `Python` (`pandas`, `seaborn`, `matplotlib`, `plotly`), `Jupyter Notebook`, `GitHub`.
+→ **Outils** : `Python` (`numpy`, `pandas`, `seaborn`, `matplotlib`, `plotly`), `Jupyter Notebook`, `GitHub`.
 
 
 ## Projet 6 - Analyse statistique avancée
+
+_Visualisations avancées visant à maîtriser la création et l’analyse de graphiques esthétiques et interactifs appliqués à un jeu de données complexe._
 
 → **Jeu de données** sur le MOOC 'Effectuation' :
 - analyse et traitement des variables :
@@ -258,7 +267,7 @@ _Prédiction de maladie du foie à partir de données médicales en comparant ba
    * création de variables composites
 - traitement des données manquantes et harmonisation des formats
 - analyses statistiques descriptives avec tables :
-  * chi2
+  * chi²
   * t-test
   * ANOVA
   * tests non-paramétriques
