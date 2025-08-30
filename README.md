@@ -125,7 +125,7 @@ _Identification de profils-types d’utilisateurs d’une application de rencont
 
 ### d. Classification non supervisée avec DBSCAN
 
-_Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour détecter des structures non convexes, en comparant ses résultats à ceux de K-means et CAH sur un jeu de données en forme de lunes._
+_Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour détecter des structures non convexes, en comparant ses résultats à ceux de k-means et CAH sur un jeu de données en forme de lunes._
 
 → **Base de données** simulées :
 - génération du jeu de données (`make_moons()`)
