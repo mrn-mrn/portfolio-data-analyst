@@ -1,8 +1,6 @@
 # Portfolio sur l'analyse de données
 
-Bienvenue sur mon portfolio dédié à l’analyse de données.
-Vous y trouverez plusieurs projets relatifs à l'analyse de données, du prétraitement au machine learning, en passant par la data visualisation et la business intelligence.
-Chaque projet contient les étapes clés, les outils utilisés et les résultats obtenus.
+Bienvenue sur mon portfolio dédié à l’analyse de données. Vous y découvrirez des projets variés allant du traitement et préparation des données à la prédiction par machine learning supervisé et non supervisé, en passant par la création de visualisations interactives, l’analyse statistique avancée, et la conception de tableaux de bord.
 
 [Projet 1 - Manipulation et pré-traitement de données](#projet-1---manipulation-et-pré-traitement-de-données)  
 [Projet 2 - Rédaction d'un rapport d'analyse](#projet-2---rédaction-dun-rapport-danalyse)  
