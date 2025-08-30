@@ -90,7 +90,7 @@ _Condensation de l’information de plusieurs variables corrélées en un petit 
 
 ### b. Réduction de dimensionnalité et clustering
 
-_Analyse des performances des athlètes en décathlon en regroupant les épreuves selon des qualités clés (vitesse, force, etc.). Comparaison ensuite deux méthodes de classement : k-means, qui forme un nombre de  groupes prédéfinis, et la classification hiérarchique ascendante, qui construit une hiérarchie de groupes. Cette comparaison permet de mieux comprendre et visualiser les profils des sportifs._
+_Analyse des performances des athlètes en décathlon en regroupant les épreuves selon des qualités clés (vitesse, force, etc.). Comparaison de deux méthodes de classement : k-means, qui forme un nombre de  groupes prédéfinis, et la classification hiérarchique ascendante, qui construit une hiérarchie de groupes. Cette comparaison permet de mieux comprendre et visualiser les profils des sportifs._
 
 → **Base de données** sur les performances sportives :
 - analyse et traitement des variables :
@@ -107,7 +107,7 @@ _Analyse des performances des athlètes en décathlon en regroupant les épreuve
    * visualisation 3D des composantes principales
    * clusters sur le plan factoriel
 
-→ **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `scipy`), `Jupyter Notebook`, `GitHub` (gestion des versions).
+→ **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `scipy`), `Jupyter Notebook`, `GitHub`.
 
 
 ### c. Analyse des correspondances multiples (ACM)
@@ -125,9 +125,7 @@ _Analyse des performances des athlètes en décathlon en regroupant les épreuve
    * représentation des profils-types émergents
    * analyse des contributions par axe
 
-→ **Outils** : `Python` (`pandas`, `matplotlib`, `prince`, `seaborn`), `Jupyter Notebook`, `GitHub` (gestion des versions).
-
-→ **Résultat** : 
+→ **Outils** : `Python` (`pandas`, `matplotlib`, `prince`, `seaborn`), `Jupyter Notebook`, `GitHub`.
 
 
 ### d. Classification non supervisée avec DBSCAN
@@ -144,9 +142,7 @@ _Analyse des performances des athlètes en décathlon en regroupant les épreuve
    * dendrogrammes 2D/3D
    * comparaison des partitions
 
-→ **Outils** : `Python` (`pandas`, `scikit-learn`, `matplotlib`, `seaborn`, `scipy`), `Jupyter Notebook`, `GitHub` (gestion des versions).
-
-→ **Résultat** : 
+→ **Outils** : `Python` (`pandas`, `scikit-learn`, `matplotlib`, `seaborn`, `scipy`), `Jupyter Notebook`, `GitHub`.
 
 
 ## Projet 4 - Machine Learning supervisé
@@ -164,7 +160,7 @@ _Analyse des performances des athlètes en décathlon en regroupant les épreuve
 - prédictions probabilistes sur de nouveaux points (`predict_proba`)
 - analyse qualitative de l’impact des splits sur les classes
   
-→ **Outils** : `Python` (`scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub` (gestion des versions).
+→ **Outils** : `Python` (`scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub`.
 
 
 ### b. Classification binaire avec arbres de décision
@@ -188,9 +184,7 @@ _Analyse des performances des athlètes en décathlon en regroupant les épreuve
 - visualisation des arbres de décision et des courbes de performance pour analyser les résultats
 - interprétation des compromis entre métriques pour optimiser la classification binaire
   
-→ **Outils** : `Python` (`scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub` (gestion des versions).
-
-→ **Résultat** : 
+→ **Outils** : `Python` (`scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub`.
 
 
 ### c. Techniques avancées de régression avec arbres et forêts aléatoires
@@ -213,9 +207,7 @@ _Analyse des performances des athlètes en décathlon en regroupant les épreuve
    * validation croisée (`k-fold`)
 - comparaison entre arbres simples et forêts aléatoires (`RandomForestRegressor`)
 
-→ **Outils** : `Python` (`scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub` (gestion des versions)
-
-→ **Résultat** : 
+→ **Outils** : `Python` (`scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub`.
 
 
 ### d. Bagging, forêts aléatoires, validation croisée et tuning d’hyperparamètres
@@ -238,8 +230,6 @@ _Analyse des performances des athlètes en décathlon en regroupant les épreuve
 
 → **Outils** : `Python` (`sklearn`, `pandas`, `matplotlib`, `seaborn`), `Jupyter Notebook`.
 
-→ **Résultat** : 
-
 
 ## Projet 5 - Techniques avancées de visualisation de données
 
@@ -249,9 +239,7 @@ _Analyse des performances des athlètes en décathlon en regroupant les épreuve
 - visualisations statistiques descriptives classiques (stacked area plot, stacked bar chart)
 - graphiques interactifs avancés avec sliders et selectors (Plotly)
 
-→ **Outils** : Python (pandas, seaborn, matplotlib, plotly), Jupyter Notebook, GitHub (versioning).
-
-→ **Résultat** : 
+→ **Outils** : `Python` (`pandas`, `seaborn`, `matplotlib`, `plotly`), `Jupyter Notebook`, `GitHub`.
 
 
 ## Projet 6 - Analyse statistique avancée
@@ -267,11 +255,9 @@ _Analyse des performances des athlètes en décathlon en regroupant les épreuve
 - visualisations synthétiques (boxplots, mosaic plots)
 - visualisations détaillées (scatterplots avec régressions, forest plots d’odd-ratios, diagnostics de modèles)
 
-→ **Outils** : Python (pandas, numpy, scipy, statsmodels, matplotlib, seaborn), Jupyter Notebook, GitHub (versioning).
+→ **Outils** : `Python` (`pandas`, `numpy`, `scipy`, `statsmodels`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub`.
 
-→ **Rapport d’analyse** au format IMRAD avec interprétations détaillées.
-
-→ **Résultat** : 
+→ **Rapport d’analyse** au format IMRaD avec interprétations détaillées.
 
 
 ## Projet 7 - Business intelligence
@@ -286,5 +272,3 @@ _Analyse des performances des athlètes en décathlon en regroupant les épreuve
 → **Outils** : Power BI (DAX).
 
 → **Tableau de bord** interactif.
-
-→ **Résultat** : 
