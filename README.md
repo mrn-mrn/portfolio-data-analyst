@@ -4,10 +4,6 @@ Bienvenue sur mon portfolio d’analyse de données.
 Vous y trouverez plusieurs projets couvrant le spectre de la data analyse, du pré-traitement au machine learning supervisé/non supervisé, en passant par la data visualisation et la business intelligence.
 Chaque projet contient les étapes clés, les outils utilisés et les résultats obtenus.
 
-## Sommaire
-
-### 📑 Sommaire
-
 - [Projet 1 - Manipulation et pré-traitement de données](#projet-1---manipulation-et-pré-traitement-de-données)  
 - [Projet 2 - Rédaction d'un rapport d'analyse](#projet-2---rédaction-dun-rapport-danalyse)  
 - [Projet 3 - Machine Learning non supervisé](#projet-3---machine-learning-non-supervisé)  
