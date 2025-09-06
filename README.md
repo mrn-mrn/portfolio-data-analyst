@@ -36,7 +36,7 @@ _Création d'un rapport structuré contenant une sélection commentée de résul
     
 → **Rapport d’analyse** avec statistiques descriptives, en $LaTeX$.
 
-→ **Outils** : `Python` (`pandas`, `matplotlib`, `missingno`, `seaborn`), `Jupyter notebook`.
+→ **Outils** : `Python` (`pandas`, `matplotlib`, `missingno`, `seaborn`), `Jupyter Notebook`.
 
 
 ## Projet 2 - Rédaction d'un rapport d'analyse
@@ -159,7 +159,7 @@ _Prédiction de l’espèce d’un manchot (Adélie, Chinstrap ou Gentoo) à par
 
 ### b. Classification binaire avec arbres de décision
 
-_Prédiction de la nature bénigne ou maligne d’une tumeur du sein à partir de caractéristiques médicales, en utilisant la méthode du hold out. Cette méthode divise les données en ensembles d’entraînement et de test afin d’évaluer la performance du modèle sur des données inédites, limitant ainsi le risque de surapprentissage (overfitting)._
+_Prédiction de la nature bénigne ou maligne d’une tumeur du sein à partir de caractéristiques médicales, en utilisant la méthode du hold-out. Cette méthode divise les données en ensembles d’entraînement et de test afin d’évaluer la performance du modèle sur des données inédites, limitant ainsi le risque de surapprentissage (overfitting)._
 
 → **Jeu de données** sur les cas de cancer du sein :
 - analyse et préparation des variables :
@@ -256,35 +256,54 @@ _Prédiction de maladie du foie à partir de données médicales en comparant ba
 
 ## Projet 6 - Analyse statistique avancée
 
-_Visualisations avancées visant à maîtriser la création et l’analyse de graphiques esthétiques et interactifs appliqués à un jeu de données complexe._
+_Analyse statistique approfondie utilisant des méthodes avancées pour explorer les relations, tester des hypothèses et modéliser un jeu de données complexe, dans le but de comprendre et d’expliquer les comportements d’engagement des apprenants dans le MOOC Effectuation._
 
-→ **Jeu de données** sur le MOOC 'Effectuation' :
+→ **Jeu de données** sur le MOOC _Effectuation_ :
 - analyse et traitement des variables :
    * fusion multi-sources
    * recodage
    * création de variables composites
-- traitement des données manquantes et harmonisation des formats
-- analyses statistiques descriptives avec tables :
-  * chi²
-  * t-test
+   * harmonisation des formats
+   * gestion des données manquantes
+- Description des distributions :
+   * moyennes
+   * écarts-types
+   * coefficients de variation
+- Tests d’indépendance et comparaison de groupes :
+  * test du chi² (calcul du V de Cramer)
+  * tests non paramétriques (Mann-Whitney, Kruskal-Wallis)
   * ANOVA
-  * tests non-paramétriques
-- visualisations synthétiques et détaillées 
+- analyse de corrélation (corrélation de Spearman)
+- modélisations statistiques
+  * régressions (linéaire, logistique, de Poisson)
+  * modèle de Cox (analyse de survie)
+- Analyses des hazard ratios
+- Visualisations synthétiques et détaillées illustrant :
+  * distributions
+  * comparaisons de groupes
+  * évolutions temporelles
+- Interprétation statistique :
+  * p-values
+  * intervalles de confiance
 
 → **Outils** : `Python` (`pandas`, `numpy`, `scipy`, `statsmodels`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub`.
 
 → **Rapport d’analyse** au format IMRaD avec interprétations détaillées.
 
 
-## Projet 7 - Business intelligence
+## Projet 7 - Business Intelligence
 
-→ **Jeu de données** RH :
-- traitement des données
-- sélection et traitement des variables pertinentes
-- visualisations dynamiques
-- carte géographique interactive
-- key-Influencers
+_Analyse visant à étudier l’impact du genre sur diverses variables RH, afin de mettre en lumière d’éventuelles disparités et d’optimiser les stratégies de gestion des ressources humaines._
 
-→ **Outils** : Power BI (DAX).
+→ **Jeu de données** RH :  
+- extraction, transformation et nettoyage des données avec **Power Query**  
+- sélection et transformation des variables pertinentes  
+- création de visualisations dynamiques :  
+  * cartes géographiques interactives  
+  * tableaux de bord avec métriques clés (KPI)  
+  * filtres interactifs pour faciliter l’exploration des données  
+  * exploration des influenceurs clés (Key Influencers) pour identifier les facteurs impactant les indicateurs RH  
 
-→ **Tableau de bord** interactif.
+→ **Outils** : Power BI (Power Query, modélisation, DAX, visualisations interactives, filtres)  
+
+→ **Livrable** : tableau de bord interactif.
