@@ -285,10 +285,10 @@ _Analyse statistique approfondie utilisant des méthodes avancées pour explorer
 - Interprétation statistique :
   * p-values
   * intervalles de confiance
-
-→ **Outils** : `Python` (`pandas`, `numpy`, `scipy`, `statsmodels`, `matplotlib`, `seaborn`), `Jupyter Notebook`, `GitHub`.
-
+ 
 → **Rapport d’analyse** au format IMRaD avec interprétations détaillées.
+
+→ **Outils** : `Python` (`numpy`, `pandas`, `matplotlib`,`seaborn`, `scipy`, `statsmodels`, `missingno`, `math`, `lifelines`), `Jupyter Notebook`, `GitHub`.
 
 
 ## Projet 7 - Business Intelligence
@@ -302,8 +302,10 @@ _Analyse visant à étudier l’impact du genre sur diverses variables RH, afin 
   * cartes géographiques interactives  
   * tableaux de bord avec métriques clés (KPI)  
   * filtres interactifs pour faciliter l’exploration des données  
-  * exploration des influenceurs clés (Key Influencers) pour identifier les facteurs impactant les indicateurs RH  
+  * exploration des influenceurs clés (Key Influencers) pour identifier les facteurs impactant les indicateurs RH
+ 
+→ **Tableau de bord** interactif.
 
 → **Outils** : Power BI (Power Query, modélisation, DAX, visualisations interactives, filtres)  
 
-→ **Livrable** : tableau de bord interactif.
+
