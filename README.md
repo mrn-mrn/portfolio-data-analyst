@@ -293,7 +293,7 @@ _Analyse statistique approfondie utilisant des méthodes avancées pour explorer
 
 ## Projet 7 - Business Intelligence
 
-_Analyse visant à étudier l’impact du genre sur diverses variables RH, afin de mettre en lumière d’éventuelles disparités et d’optimiser les stratégies de gestion des ressources humaines._
+_Analyse visant à étudier le lien entre le genre et diverses variables RH, afin d’optimiser les stratégies de gestion des ressources humaines._
 
 → **Jeu de données** RH :  
 - extraction, transformation et nettoyage des données avec **Power Query**  
