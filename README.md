@@ -288,7 +288,7 @@ _Analyse statistique approfondie utilisant des méthodes avancées pour explorer
   * p-values
   * intervalles de confiance
  
-→ **Rapport d’analyse** avec de visualisations de données et interprétations détaillées.
+→ **Rapport d’analyse** au format IMRaD avec interprétations détaillées.
 
 → **Outils** : `Python` (`numpy`, `pandas`, `matplotlib`,`seaborn`, `scipy`, `statsmodels`, `missingno`, `math`, `lifelines`), `Jupyter Notebook`, `GitHub`.
 
