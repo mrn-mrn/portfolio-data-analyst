@@ -251,6 +251,8 @@ _Prédiction de maladie du foie à partir de données médicales en comparant ba
     * avec sliders
     * avec selectors
 
+→ **Rapport d’analyse** 
+
 → **Outils** : `Python` (`numpy`, `pandas`, `seaborn`, `matplotlib`, `plotly`), `Jupyter Notebook`, `GitHub`.
 
 
@@ -286,7 +288,7 @@ _Analyse statistique approfondie utilisant des méthodes avancées pour explorer
   * p-values
   * intervalles de confiance
  
-→ **Rapport d’analyse** au format IMRaD avec interprétations détaillées.
+→ **Rapport d’analyse** avec de visualisations de données et interprétations détaillées.
 
 → **Outils** : `Python` (`numpy`, `pandas`, `matplotlib`,`seaborn`, `scipy`, `statsmodels`, `missingno`, `math`, `lifelines`), `Jupyter Notebook`, `GitHub`.
 
