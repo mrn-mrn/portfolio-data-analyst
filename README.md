@@ -251,7 +251,7 @@ _Prédiction de maladie du foie à partir de données médicales en comparant ba
     * avec sliders
     * avec selectors
 
-→ **Rapport d’analyse** 
+→ **Rapport d’analyse** avec visualisations de données et interprétations détaillées.
 
 → **Outils** : `Python` (`numpy`, `pandas`, `seaborn`, `matplotlib`, `plotly`), `Jupyter Notebook`, `GitHub`.
 
