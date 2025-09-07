@@ -19,7 +19,7 @@ Bienvenue sur mon portfolio dédié à l’analyse de données. Vous y découvri
 [Projet 7 - Business intelligence](#projet-7---business-intelligence)
 
 
-## Projet 1 - Manipulation et pré-traitement de données
+## [Projet 1](./projet1/) - Manipulation et pré-traitement de données
 
 _Création d'un rapport structuré contenant une sélection commentée de résultats et graphiques, avec analyse des valeurs aberrantes, des tendances et premières interprétations._
 
