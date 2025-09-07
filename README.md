@@ -39,7 +39,7 @@ _Création d'un rapport structuré contenant une sélection commentée de résul
 → **Outils** : `Python` (`pandas`, `matplotlib`, `missingno`, `seaborn`), `Jupyter Notebook`.
 
 
-## Projet 2 - Rédaction d'un rapport d'analyse
+## [Projet 2](./projet2/) - Rédaction d'un rapport d'analyse
 
 _Présentation selon les standards scientifiques de résultats inédits issus d’une analyse personnelle de données, avec interprétations approfondies._
 
