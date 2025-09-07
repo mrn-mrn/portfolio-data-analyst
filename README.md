@@ -57,7 +57,7 @@ _Présentation selon les standards scientifiques de résultats inédits issus d�
 → **Outils** : `Python` (`pandas`, `numpy`, `matplotlib`, `seaborn`, `missingno`), `Jupyter Notebook`, `GitHub`.
 
 
-## Projet 3 - Machine Learning non supervisé
+## [Projet 3](./projet3/) - Machine Learning non supervisé
 
 ### a. Analyse en composantes principales (ACP)
 
@@ -137,7 +137,7 @@ _Démonstration que DBSCAN est la méthode de clustering la plus adaptée pour d
 → **Outils** : `Python` (`pandas`, `scikit-learn`, `matplotlib`, `seaborn`, `scipy`), `Jupyter Notebook`, `GitHub`.
 
 
-## Projet 4 - Machine Learning supervisé
+## [Projet 4](./projet4/) - Machine Learning supervisé
 
 ### a. Classification supervisée avec arbres de décision
 
@@ -236,7 +236,7 @@ _Prédiction de maladie du foie à partir de données médicales en comparant ba
 → **Outils** : `Python` (`pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`), `Jupyter Notebook`.
 
 
-## Projet 5 - Techniques avancées de visualisation de données
+## [Projet 5](./projet5/) - Techniques avancées de visualisation de données
 
 → **Jeu de données** sur les soutenances de thèses en France :
 - analyse et traitement des variables qualitatives et quantitatives
@@ -254,7 +254,7 @@ _Prédiction de maladie du foie à partir de données médicales en comparant ba
 → **Outils** : `Python` (`numpy`, `pandas`, `seaborn`, `matplotlib`, `plotly`), `Jupyter Notebook`, `GitHub`.
 
 
-## Projet 6 - Analyse statistique avancée
+## [Projet 6](./projet6/) - Analyse statistique avancée
 
 _Analyse statistique approfondie utilisant des méthodes avancées pour explorer les relations, tester des hypothèses et modéliser un jeu de données complexe, dans le but de comprendre et d’expliquer les comportements d’engagement des apprenants dans le MOOC Effectuation._
 
@@ -291,7 +291,7 @@ _Analyse statistique approfondie utilisant des méthodes avancées pour explorer
 → **Outils** : `Python` (`numpy`, `pandas`, `matplotlib`,`seaborn`, `scipy`, `statsmodels`, `missingno`, `math`, `lifelines`), `Jupyter Notebook`, `GitHub`.
 
 
-## Projet 7 - Business Intelligence
+## [Projet 7](./projet7/) - Business Intelligence
 
 _Analyse visant à étudier le lien entre le genre et diverses variables RH, afin d’optimiser les stratégies de gestion des ressources humaines._
 
